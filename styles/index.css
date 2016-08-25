@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  padding: 10px;
+  background-color: #EEEEEE;
+  border-bottom: 1px solid #DDDDDD;
+}
+
+main {
+  padding: 80px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: orange;
+}
+
+p {
+  margin: 0;
+}
+
+p:hover {
+  color: yellow;
+}
+
+.logo {
+  display: inline-block;
+  border-radius: 100%;
+  padding: 0;
+  font-size: 18px;
+  color: black;
+}
+
+.header-nav {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.nav-link {
+  font-size: 18px;
+  color: indigo;
+  padding: 0 6px 0 6px;
+}
+
+.search {
+  margin-bottom: 30px;
+}
+
+.search input {
+  font-size: 18px;
+  padding: 0 6px 0 6px;
+  line-height: 30px;
+  height: 30px;
+  width: 400px;
+  border-radius: 3px;
+  border: 1px solid #DDDDDD;
+}
+
+.search button {
+  font-size: 18px;
+  height: 30px;
+  background-color: #FFFFFF;
+  border-radius: 3px;
+  border: 1px solid #DDDDDD;
+}
+
+.pages {
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 30px;
+  border-radius: 3px;
+  border: 1px solid #DDDDDD;
+  padding: 10px 0px;
+}
+
+.pages-nav {
+  color: black;
+  padding: 10px 14px;
+}
+
+.pages-count {
+  padding: 10px 20px;
+  border-left: 1px solid #DDDDDD;
+  border-right: 1px solid #DDDDDD;
+}
+
+.results {
+  padding: 0;
+  list-style: none;
+  color: #999999;
+}
+
+.result {
+  margin-bottom: 14px;
+}
+
+.result-title {
+  font-weight: bold;
+  font-size: 17px;
+  color: blue;
+  padding: 0 14px;
+}
+
+.fa-star {
+  padding-right: 10px;
+}
